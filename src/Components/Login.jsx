@@ -2,38 +2,41 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 export default function Login() {
-  return (
-    <div className="row justify-content-center">
-  <div className="col-lg-6 col-md-8 col-sm-10 mt-5">
-    <div className="card border-0 shadow">
-      <div className="card-header bg-primary text-white">
-        <h2 className="mb-0 text-center">User Login</h2>
-      </div>
-      <div className="card-body">
-        <form>
-          <div className="form-group">
-            <label>User Name</label>
-            <input type="text" className="form-control" placeholder="Enter User Name" />
-          </div>
-          <div className="form-group">
-            <label>Password</label>
-            <input type="password" className="form-control" placeholder="Enter Password" />
-          </div>
-          <div className="form-group">
-            <div className="custom-control custom-checkbox">
-              <input type="checkbox" className="custom-control-input" id="rememberMe" />
-              <label className="custom-control-label" htmlFor="rememberMe">Remember Me</label>
-            </div>
-          </div>
-          <button type="submit" className="btn btn-primary btn-block">Login</button>
-          <p className="text-center mt-3">
-            New User? <Link to={'/signup'}>Sign Up</Link>
-          </p>
-        </form>
-      </div>
-    </div>
-  </div>
-
-    </div>
-  )
+    return (
+        <>
+                <div className="row">
+                    <div className="offset-3 col-lg-6" style={{marginTop: '50px'}}>
+                        <form className="container">
+                        <div className="card">
+                            <div className="card-header">
+                                <h2 className='mb-3' style={{textAlign:'center'}}>User Login</h2>
+                                <div className="card-header">
+                        <div class="mb-3">
+                                <label for="exampleInputUsername" class="form-label">User Name <span className="errmsg">*</span></label>
+                                <input type="username" class="form-control" id="exampleInputusername" aria-describedby="usernameHelp"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputEmail1" class="form-label">Email address <span className="errmsg">*</span></label>
+                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"/>
+                            </div>
+                            <div class="mb-3">
+                                <label for="exampleInputPassword1" class="form-label">Password <span className="errmsg">*</span></label>
+                                <input type="password" class="form-control" id="exampleInputPassword1"/>
+                            </div>
+                            <div class="mb-3 form-check">
+                                <input type="checkbox" class="form-check-input" id="exampleCheck1"/>
+                                    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                            </div>
+                            <div className="card-header">
+                            <button type="submit" class="btn btn-success w-100" style={{marginBottom:'10px'}}>Login</button>
+                            <Link type="submit" class="btn btn-primary w-100" to={'/signup'}>Signup</Link>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+                        </form>
+                    </div>
+                </div>
+        </>
+    )
 }

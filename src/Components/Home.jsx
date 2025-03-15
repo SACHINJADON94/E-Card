@@ -59,13 +59,13 @@ const ShowProducts = ()=>
   </div>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/images/s1.jpeg" class="d-block w-100" alt="..." height="550px" width="100%"/>
+      <img src="assets/images/2.jpg" class="d-block w-100" alt="..." height="550px" width="100%"/>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/s6.jpeg" class="d-block w-100" alt="..." height="550px" width="100%"/>
+      <img src="assets/images/3.jpg" class="d-block w-100" alt="..." height="550px" width="100%"/>
     </div>
     <div class="carousel-item">
-      <img src="assets/images/s5.webp" class="d-block w-100" alt="..." height="550px" width="100%"/>
+      <img src="assets/images/4.jpeg" class="d-block w-100" alt="..." height="550px" width="100%"/>
     </div>
     
   </div>

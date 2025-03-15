@@ -4,6 +4,22 @@ export default function Contact() {
   return (
     <>
       <div className="container mt-5 p-5 shadow rounded">
+      <div class="row">
+            <div class="contact_info">
+              <div class="info_item">
+                <h5>Noida U.P India</h5>
+                <p>A Block, Sector 16, Noida, Uttar Pradesh 201301</p>
+              </div>
+              <div class="info_item">
+                <h5>+91-9410602698</h5>
+                <p>Mon to Fri 9am to 6 pm</p>
+              </div>
+              <div class="info_item">
+                <h5>sachinjadon82@gmail.com</h5>
+                <p>Send us your query anytime!</p>
+              </div>
+            </div>
+          </div>
       <h1 className="text-center bg-warning hover shadow">Contact Us</h1>
         <div className="row">
           <div className="col-6">
@@ -15,7 +31,7 @@ export default function Contact() {
                 scrolling="no"
                 marginheight="0"
                 marginwidth="0"
-                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=A%20-%2043%20,%20%20sector%2016%20noida+(ducat)&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+                src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=A%20-%2043%20,%20%20sector%2016%20noida&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               >
                 <a href="https://www.gps.ie/">gps systems</a>
               </iframe>
@@ -66,6 +82,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
+        
       </>
     );
   }
