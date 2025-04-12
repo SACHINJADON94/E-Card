@@ -35,7 +35,8 @@ export default function Contact() {
                 referrerPolicy="no-referrer-when-downgrade"
                 src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=A%20-%2043%20,%20%20sector%2016%20noida&amp;t=&amp;z=10&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
               >
-                <a href="https://www.gps.ie/">gps systems</a>
+                <title>Google Map Location
+                <a href="https://www.gps.ie/">gps systems</a></title>
               </iframe>
             </div>
           </div>
