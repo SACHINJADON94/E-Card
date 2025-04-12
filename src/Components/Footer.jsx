@@ -9,7 +9,7 @@ export default function Footer() {
           <div className="col-md-3 mb-4">
             <h5 className="text-uppercase text-warning">About Us</h5>
             <p className="small">
-              S-Mart Clothing offers a curated collection of the latest fashion trends for every occasion. From casual wear to formal attire, we bring style to your wardrobe.
+              E-Card Clothing offers a curated collection of the latest fashion trends for every occasion. From casual wear to formal attire, we bring style to your wardrobe.
             </p>
           </div>
 
