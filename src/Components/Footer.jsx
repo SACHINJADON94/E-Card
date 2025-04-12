@@ -66,7 +66,9 @@ export default function Footer() {
           <div className="col-md-6 text-md-end">
             <a href="#" className="text-light text-decoration-none small me-3">Privacy Policy</a>
             <a href="#" className="text-light text-decoration-none small">Terms of Service</a>
+            <a href="javascript:void(0);"></a>
           </div>
+          <div className=" border-top pt-2 mt-3"></div>
         </div>
       </div>
     </footer>
